@@ -1,0 +1,8 @@
+export const navbarLinks = [
+  { href: "/", label: "Home" },
+  { href: "/about", label: "About" },
+  { href: "/culture", label: "Culture" },
+  { href: "/events", label: "Events" },
+  { href: "/resources", label: "Resources" },
+  { href: "/community", label: "Community" },
+];
