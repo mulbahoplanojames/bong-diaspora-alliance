@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Emmanuel Konneh",
+    "title": "President & Founder",
+    "description": "Master candidate in Civil Engineering with 5 years of leadership experience in student organizations. Passionate about infrastructure development in Africa.",
+    "badge": "Engineering, Kigali Independent University ",
+    "image": "/placeholder.svg?height=120&width=120"
+  },
+  {
+    "name": "Grace Mulbah",
+    "title": "Vice President",
+    "description": "MBA student specializing in International Business. Former cultural committee chair with expertise in event management and community engagement.",
+    "badge": "Business, AUCA",
+    "image": "/placeholder.svg?height=120&width=120"
+  },
+  {
+    "name": "James Pewee",
+    "title": "Secretary General",
+    "description": "Medical student with strong organizational skills. Coordinates academic support programs and maintains official records and communications.",
+    "badge": "Medicine, INES",
+    "image": "/placeholder.svg?height=120&width=120"
+  },
+  {
+    "name": "Sarah Konneh",
+    "title": "Treasurer",
+    "description": "Finance major with experience in budget management and fundraising. Oversees financial planning and scholarship fund administration.",
+    "badge": "Finance, ULK",
+    "image": "/placeholder.svg?height=120&width=120"
+  },
+  {
+    "name": "Moses Flomo",
+    "title": "Cultural Director",
+    "description": "Fine Arts student and traditional musician. Leads cultural preservation initiatives and organizes heritage celebrations and educational programs.",
+    "badge": "Arts, KIST",
+    "image": "/placeholder.svg?height=120&width=120"
+  },
+  {
+    "name": "Ruth Gaye",
+    "title": "Academic Coordinator",
+    "description": "Education graduate student focused on curriculum development. Coordinates tutoring programs and academic support services for members.",
+    "badge": "Education, UR",
+    "image": "/placeholder.svg?height=120&width=120"
+  }
+]
