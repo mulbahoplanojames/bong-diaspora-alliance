@@ -1,0 +1,99 @@
+[
+  {
+    "title": "Bitter Leaf Soup",
+    "image": "/placeholder.svg?height=200&width=300",
+    "description": "A unique and flavorful soup",
+    "content": "A unique and flavorful soup made with bitter leaves, vegetables, and meat or fish.",
+    "badge": "Soup",
+    "link": "/cuisines/bitter-leaf-soup"
+  },
+  {
+    "title": "Moi Moi",
+    "image": "/placeholder.svg?height=200&width=300",
+    "description": "A savory steamed bean pudding",
+    "content": "A savory steamed pudding made from blended beans, peppers, and spices, often served as a side dish.",
+    "badge": "Side Dish",
+    "link": "/cuisines/moi-moi"
+  },
+  {
+    "title": "Cassava Leaf Stew",
+    "image": "/placeholder.svg?height=200&width=300",
+    "description": "A nutritious leafy green stew",
+    "content": "A nutritious leafy green stew made with cassava leaves, vegetables, and meat or fish.",
+    "badge": "Vegetable",
+    "link": "/cuisines/cassava-leaf-stew"
+  },
+  {
+    "title": "Palm Butter",
+    "image": "/placeholder.svg?height=200&width=300",
+    "description": "Rich and flavorful traditional stew",
+    "content": "A rich and flavorful traditional stew made with palm oil, vegetables, and meat or fish.",
+    "badge": "Stew",
+    "link": "/cuisines/palm-butter"
+  },
+  {
+    "title": "Kola Nut",
+    "image": "/placeholder.svg?height=200&width=300",
+    "description": "Sacred ceremonial offering",
+    "content": "A traditional nut with cultural significance, offered to guests as a sign of respect and hospitality.",
+    "badge": "Ceremonial",
+    "link": "/cuisines/kola-nut"
+  },
+  {
+    "title": "Fufu",
+    "image": "/placeholder.svg?height=200&width=300",
+    "description": "Traditional starchy side dish",
+    "content": "Pounded cassava or plantain formed into balls, served alongside soups and stews.",
+    "badge": "Staple",
+    "link": "/cuisines/fufu"
+  },
+  {
+    "title": "Palm Wine",
+    "image": "/placeholder.svg?height=200&width=300",
+    "description": "Traditional fermented beverage",
+    "content": "A natural alcoholic beverage tapped from palm trees, enjoyed during celebrations and gatherings.",
+    "badge": "Beverage",
+    "link": "/cuisines/palm-wine"
+  },
+  {
+    "title": "Jollof Rice",
+    "image": "/placeholder.svg?height=200&width=300",
+    "description": "The crown jewel of West African cuisine",
+    "content": "Aromatic rice cooked in tomato sauce with spices, vegetables, and meat or fish. A celebration staple.",
+    "badge": "Supper Dish",
+    "link": "/cuisines/jollof-rice"
+  },
+
+  {
+    "title": "Pounded Yam",
+    "image": "/placeholder.svg?height=200&width=300",
+    "description": "A hearty and aromatic stew",
+    "content": "A hearty and aromatic stew made with yam, vegetables, and meat or fish.",
+    "badge": "Stew",
+    "link": "/cuisines/pounded-yam"
+  },
+  {
+    "title": "Fried Plantain",
+    "image": "/placeholder.svg?height=200&width=300",
+    "description": "A crispy and flavorful snack",
+    "content": "A crispy and flavorful snack made with plantain, spices, and oil.",
+    "badge": "Snack",
+    "link": "/cuisines/fried-plantain"
+  },
+  {
+    "title": "Okra Soup",
+    "image": "/placeholder.svg?height=200&width=300",
+    "description": "A thick and hearty soup",
+    "content": "A thick and hearty soup made with okra, vegetables, and meat or fish.",
+    "badge": "Soup",
+    "link": "/cuisines/okra-soup"
+  },
+  {
+    "title": "Pepper Soup",
+    "image": "/placeholder.svg?height=200&width=300",
+    "description": "A spicy and aromatic soup",
+    "content": "A spicy and aromatic soup made with peppers, spices, and meat or fish.",
+    "badge": "Soup",
+    "link": "/cuisines/pepper-soup"
+  }
+]
