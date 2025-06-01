@@ -8,7 +8,7 @@ import {
   SheetTrigger,
 } from "@/components/ui/sheet";
 import { Menu } from "lucide-react";
-import { mobileNavbarLinks, navbarLinks } from "@/data/nav-data";
+import { mobileNavbarLinks } from "@/data/nav-data";
 import NavMenu from "./nav-menu";
 import Image from "next/image";
 

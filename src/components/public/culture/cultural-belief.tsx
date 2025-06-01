@@ -74,7 +74,9 @@ export default function CulturalBelief() {
             <div className="space-y-2">
               <div className="flex items-center space-x-2">
                 <div className="w-2 h-2 bg-pink-500 rounded-full"></div>
-                <span className="text-sm">Women's health and wellness</span>
+                <span className="text-sm">
+                  Women&apos;s health and wellness
+                </span>
               </div>
               <div className="flex items-center space-x-2">
                 <div className="w-2 h-2 bg-pink-500 rounded-full"></div>

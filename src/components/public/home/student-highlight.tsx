@@ -68,7 +68,9 @@ export default function StudentHighlight() {
                 </div>
               </CardHeader>
               <CardContent>
-                <p className="text-gray-600 mb-4">"{highlight.quote}"</p>
+                <p className="text-gray-600 mb-4">
+                  &apos;{highlight.quote}&apos;
+                </p>
                 <div className="flex items-center space-x-2">
                   <highlight.icon className="h-4 w-4 text-yellow-500" />
                   <span className="text-sm text-gray-600">

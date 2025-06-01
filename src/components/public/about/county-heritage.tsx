@@ -37,7 +37,7 @@ export default function CountyHeritage() {
                 ethnic group in the country - the Kpelle people. Rich in natural
                 resources and cultural heritage, Bong County has been the
                 birthplace of leaders, scholars, and visionaries who have shaped
-                Liberia's history.
+                Liberia&apos;s history.
               </p>
             </div>
 
