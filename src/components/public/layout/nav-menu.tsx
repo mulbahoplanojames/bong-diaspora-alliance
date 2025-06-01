@@ -32,7 +32,9 @@ export default function NavMenu() {
         );
       })}
 
-      <Button className="bg-orange-600 hover:bg-orange-700">Join Us</Button>
+      <Button className="bg-orange-600 hover:bg-orange-700" asChild>
+        <Link href="/join">Join Us</Link>
+      </Button>
     </nav>
   );
 }

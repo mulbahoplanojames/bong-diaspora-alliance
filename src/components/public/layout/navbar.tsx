@@ -8,7 +8,7 @@ import {
   SheetTrigger,
 } from "@/components/ui/sheet";
 import { Menu } from "lucide-react";
-import { navbarLinks } from "@/data/nav-data";
+import { mobileNavbarLinks, navbarLinks } from "@/data/nav-data";
 import NavMenu from "./nav-menu";
 import Image from "next/image";
 
@@ -62,7 +62,7 @@ export default function Navbar() {
                 </div>
               </SheetHeader>
               <div className="flex flex-col space-y-4 mt-4 px-8">
-                {navbarLinks.map((link) => (
+                {mobileNavbarLinks.map((link) => (
                   <SheetClose asChild key={link.label}>
                     <Link
                       key={link.href}

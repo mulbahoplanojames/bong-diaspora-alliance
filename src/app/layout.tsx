@@ -19,6 +19,9 @@ export const metadata: Metadata = {
   },
   description:
     "Bong Diaspora Alliance Rwanda Chapter. Join us to connect with Liberian students in Rwanda.",
+  icons: {
+    icon: "/logo.jpeg",
+  },
   keywords: [
     "Bong Diaspora Alliance",
     "Liberian students in Rwanda",

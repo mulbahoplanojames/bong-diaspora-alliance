@@ -4,7 +4,13 @@ import Leadership from "@/components/public/about/leadership";
 import MissionVision from "@/components/public/about/mission-vision";
 import Statistics from "@/components/public/about/statistics";
 import Hero from "@/components/public/hero";
-import React from "react";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "About Us ",
+  description:
+    "Learn about the Bong Diaspora Alliance, our mission, vision, and the rich heritage of Bong County, Liberia. Join us in empowering the next generation of leaders in Rwanda.",
+};
 
 export default function AboutPage() {
   return (

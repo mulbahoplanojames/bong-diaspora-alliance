@@ -8,6 +8,9 @@ export const metadata: Metadata = {
     template: "%s | Bong Diaspora Alliance",
     default: "Bong Diaspora Alliance",
   },
+  icons: {
+    icon: "/logo.jpeg",
+  },
   description:
     "Bong Diaspora Alliance Rwanda Chapter. Join us to connect with Liberian students in Rwanda.",
   keywords: [

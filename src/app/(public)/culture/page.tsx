@@ -5,6 +5,13 @@ import Language from "@/components/public/culture/language";
 import Overview from "@/components/public/culture/overview";
 import Hero from "@/components/public/hero";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Cultural Heritage",
+  description:
+    "Explore the rich cultural heritage of Bong County, Liberia. From traditional attire and cuisine to language and beliefs, discover the vibrant tapestry that connects us across generations and continents.",
+};
 
 export default function CulturePage() {
   return (
