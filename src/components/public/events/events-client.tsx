@@ -32,7 +32,6 @@ import {
   Camera,
   Video,
   Music,
-  Globe,
   GraduationCap,
 } from "lucide-react";
 import Image from "next/image";
@@ -150,7 +149,7 @@ export default function EventsClient() {
                     .map((event) => (
                       <Card
                         key={event.id}
-                        className="overflow-hidden hover:shadow-lg transition-shadow"
+                        className="overflow-hidden hover:shadow-lg transition-shadow p-0"
                       >
                         <div className="relative">
                           <Image
@@ -180,7 +179,7 @@ export default function EventsClient() {
                             {event.description}
                           </CardDescription>
                         </CardHeader>
-                        <CardContent>
+                        <CardContent className="pb-6">
                           <div className="space-y-3 mb-4">
                             <div className="flex items-center text-sm text-gray-600">
                               <CalendarIcon className="h-4 w-4 mr-2" />
@@ -246,7 +245,7 @@ export default function EventsClient() {
                     .map((event) => (
                       <Card
                         key={event.id}
-                        className="hover:shadow-lg transition-shadow"
+                        className="hover:shadow-lg transition-shadow p-0"
                       >
                         <div className="relative">
                           <Image
@@ -271,7 +270,7 @@ export default function EventsClient() {
                             {event.description}
                           </CardDescription>
                         </CardHeader>
-                        <CardContent>
+                        <CardContent className="pb-4">
                           <div className="space-y-2 mb-4">
                             <div className="flex items-center text-xs text-gray-600">
                               <CalendarIcon className="h-3 w-3 mr-2" />
@@ -313,7 +312,7 @@ export default function EventsClient() {
                   {pastEvents.map((event) => (
                     <Card
                       key={event.id}
-                      className="hover:shadow-lg transition-shadow"
+                      className="hover:shadow-lg transition-shadow p-0"
                     >
                       <div className="relative">
                         <Image
@@ -336,7 +335,7 @@ export default function EventsClient() {
                           {event.description}
                         </CardDescription>
                       </CardHeader>
-                      <CardContent>
+                      <CardContent className="pb-4">
                         <div className="space-y-2 mb-4">
                           <div className="flex items-center text-xs text-gray-600">
                             <CalendarIcon className="h-3 w-3 mr-2" />
@@ -388,7 +387,7 @@ export default function EventsClient() {
                         mode="single"
                         selected={selectedDate}
                         onSelect={setSelectedDate}
-                        className="rounded-md border"
+                        className="rounded-md border w-full"
                       />
                     </CardContent>
                   </Card>
@@ -446,21 +445,6 @@ export default function EventsClient() {
                         </div>
                         <span className="text-sm font-semibold">25%</span>
                       </div>
-                    </CardContent>
-                  </Card>
-
-                  <Card>
-                    <CardHeader>
-                      <CardTitle>Subscribe to Events</CardTitle>
-                      <CardDescription>
-                        Get notified about upcoming events
-                      </CardDescription>
-                    </CardHeader>
-                    <CardContent>
-                      <Button className="w-full bg-orange-600 hover:bg-orange-700">
-                        <Globe className="h-4 w-4 mr-2" />
-                        Add to Calendar
-                      </Button>
                     </CardContent>
                   </Card>
                 </div>
