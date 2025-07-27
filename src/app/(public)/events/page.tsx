@@ -1,3 +1,4 @@
+import EventsClient from "@/components/public/events/events-client";
 import Hero from "@/components/public/hero";
 import { Metadata } from "next";
 
@@ -15,6 +16,7 @@ export default function EventsPage() {
         title="Community Events"
         description="Join us for cultural celebrations, academic workshops, and community gatherings that strengthen our bonds and celebrate our heritage while building our future in Rwanda."
       />
+      <EventsClient />
     </>
   );
 }
