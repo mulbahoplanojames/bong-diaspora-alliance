@@ -1,16 +1,7 @@
 export const attires = [
   {
-    title: "Women's Ceremonial Dress",
-    description: "Lappa and headwrap ensemble",
-    content:
-      "Colorful lappa cloth with intricate patterns, worn with matching headwrap and jewelry for special occasions.",
-    badges: [
-      { label: "Ceremonial", color: "bg-orange-100 text-orange-800" },
-      { label: "Traditional", color: "bg-blue-100 text-blue-800" },
-    ],
-  },
-  {
     title: "Men's Ceremonial Dress",
+    image: "/images/male.png",
     description: "Lappa and headwrap ensemble",
     content:
       "Flowing grand boubou with traditional embroidery patterns, worn with matching cap and sandals.",
@@ -20,7 +11,20 @@ export const attires = [
     ],
   },
   {
+    title: "Women's Ceremonial Dress",
+    image: "/images/female-clothing.png",
+    description: "Lappa and headwrap ensemble",
+    content:
+      "Colorful lappa cloth with intricate patterns, worn with matching headwrap and jewelry for special occasions.",
+    badges: [
+      { label: "Ceremonial", color: "bg-orange-100 text-orange-800" },
+      { label: "Traditional", color: "bg-blue-100 text-blue-800" },
+    ],
+  },
+
+  {
     title: "Men's Ceremonial Dress",
+    image: "/images/male.png",
     description: "Lappa and headwrap ensemble",
     content:
       "Contemporary designs incorporating traditional patterns and colors, popular among young people.",

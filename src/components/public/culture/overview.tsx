@@ -32,7 +32,7 @@ export default function Overview() {
       </div>
       <div className="relative w-full h-96 rounded-2xl overflow-hidden shadow-lg">
         <Image
-          src="/placeholder.svg?height=400&width=600"
+          src="/images/kpelle-dance.png"
           alt="Kpelle cultural ceremony"
           fill
           sizes="(max-width: 600px) 100vw, 600px"

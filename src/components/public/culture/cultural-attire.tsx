@@ -28,13 +28,14 @@ export default function CulturalAttire() {
         {attires.map((attire, index) => (
           <Card key={index} className="hover:shadow-lg transition-shadow">
             <CardHeader>
-              <Image
-                src="/placeholder.svg?height=300&width=250"
-                alt={attire.title}
-                width={250}
-                height={300}
-                className="rounded-lg mb-4"
-              />
+              <div className="h-52 relative overflow-hidden rounded-lg mb-4">
+                <Image
+                  src={attire.image}
+                  alt={attire.title}
+                  fill
+                  className="object-cover"
+                />
+              </div>
               <CardTitle>{attire.title}</CardTitle>
               <CardDescription>{attire.description}</CardDescription>
             </CardHeader>
