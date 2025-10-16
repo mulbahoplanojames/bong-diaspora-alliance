@@ -51,7 +51,7 @@ export default function Footer() {
             <h4 className="font-semibold mb-4">Quick Links</h4>
             <ul className="space-y-2 text-sm">
               {quickLinks.map((link) => (
-                <li key={link.href}>
+                <li key={link.label}>
                   <Link
                     href={link.href}
                     className="text-gray-400 hover:text-orange-600 transition-colors"
@@ -67,7 +67,7 @@ export default function Footer() {
             <h4 className="font-semibold mb-4">Community</h4>
             <ul className="space-y-2 text-sm">
               {communityLinks.map((link) => (
-                <li key={link.href}>
+                <li key={link.label}>
                   <Link
                     href={link.href}
                     className="text-gray-400 hover:text-orange-600 transition-colors"
@@ -83,7 +83,7 @@ export default function Footer() {
             <h4 className="font-semibold mb-4">Connect</h4>
             <ul className="space-y-2 text-sm">
               {connectLinks.map((link) => (
-                <li key={link.href}>
+                <li key={link.label}>
                   <Link
                     href={link.href}
                     className="text-gray-400 hover:text-orange-600 transition-colors"

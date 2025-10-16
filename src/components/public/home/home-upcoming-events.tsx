@@ -12,7 +12,7 @@ import Link from "next/link";
 
 const upcomingEvents = [
   {
-    title: "Bong Cultural Night 2024",
+    title: "Bong Cultural Night 2025",
     date: "Dec 15, 2025",
     time: "6:00 PM - 10:00 PM",
     location: "Kigali Convention Center, Kigali",

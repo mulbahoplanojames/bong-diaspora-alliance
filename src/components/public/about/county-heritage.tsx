@@ -55,10 +55,10 @@ export default function CountyHeritage() {
 
           <div className="relative h-72 lg:h-[500px] overflow-hidden rounded-2xl shadow-lg">
             <Image
-              src="/placeholder.svg?height=500&width=600"
+              src="/images/bong-county.png"
               alt="Bong County landscape and culture"
               fill
-              className="w-full h-full object-cover rounded-2xl"
+              className="w-full h-full object-cover object-center rounded-2xl"
               sizes="(max-width: 768px) 100vw, (min-width: 769px) 50vw"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent rounded-2xl"></div>

@@ -10,8 +10,9 @@ import Image from "next/image";
 
 const highlights = [
   {
-    name: "Sarah Konneh",
-    field: "Engineering, Kigali Independent University",
+    name: "Richardsin Mulbah",
+    avatar: "/images/users/user-placeholder-01.jpg",
+    field: "International Relation, ULK",
     quote:
       "The alliance helped me navigate my first year in Rwanda. Now I'm mentoring new students and working on sustainable energy projects.",
     award: "Dean's List 2024",
@@ -19,6 +20,7 @@ const highlights = [
   },
   {
     name: "James Pewee",
+    avatar: "/images/users/user-placeholder-02.jpg",
     field: "Medicine, INES-Ruhengeri",
     quote:
       "From Gbarnga to Ruhengeri, this journey has been incredible. The cultural exchange has enriched both my studies and personal growth.",
@@ -27,6 +29,7 @@ const highlights = [
   },
   {
     name: "Grace Mulbah",
+    avatar: "/images/users/user-placeholder-03.jpg",
     field: "Business, AUCA",
     quote:
       "Leading the cultural committee has allowed me to share our Bong heritage while learning about Rwandan traditions. It's been transformative.",
@@ -54,13 +57,14 @@ export default function StudentHighlight() {
             <Card key={index} className="hover:shadow-lg transition-shadow">
               <CardHeader>
                 <div className="flex items-center space-x-4">
-                  <Image
-                    src="/placeholder.svg?height=60&width=60"
-                    alt="Student profile"
-                    width={60}
-                    height={60}
-                    className="rounded-full"
-                  />
+                  <div className="size-24 overflow-hidden relative rounded-full">
+                    <Image
+                      src={highlight.avatar}
+                      alt="Student profile"
+                      className="w-full h-full object-cover"
+                      fill
+                    />
+                  </div>
                   <div>
                     <CardTitle className="text-lg">{highlight.name}</CardTitle>
                     <CardDescription>{highlight.field}</CardDescription>

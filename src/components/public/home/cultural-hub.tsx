@@ -57,16 +57,16 @@ export default function CulturalHub() {
           </div>
 
           <div className="relative h-72 lg:h-[400px]">
-            <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent rounded-2xl"></div>
+            <div className="absolute inset-0 bg-gradient-to-t from-black/90 to-transparent rounded-2xl"></div>
             <Image
-              src="/placeholder.svg?height=500&width=600"
+              src="/cultural-hub.jpg"
               alt="Traditional Bong County cultural elements"
               fill
-              className="w-full h-full object-cover shadow-lg transition-transform duration-300 hover:scale-105"
+              className="w-full h-full object-cover shadow-lg transition-transform duration-300 rounded-2xl hover:scale-105"
               sizes="(max-width: 768px) 100vw, (min-width: 769px) 50vw"
               priority
             />
-            <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent rounded-2xl"></div>
+            <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent rounded-2xl"></div>
           </div>
         </div>
       </div>

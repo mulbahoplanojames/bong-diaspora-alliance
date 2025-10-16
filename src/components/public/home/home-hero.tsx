@@ -46,11 +46,11 @@ export default function HomeHero() {
 
             <div className="grid grid-cols-3 gap-6 pt-8">
               <div className="text-center">
-                <div className="text-3xl font-bold text-orange-600">20+</div>
+                <div className="text-3xl font-bold text-orange-600">50+</div>
                 <div className="text-sm text-gray-600">Active Students</div>
               </div>
               <div className="text-center">
-                <div className="text-3xl font-bold text-blue-600">4</div>
+                <div className="text-3xl font-bold text-blue-600">4+</div>
                 <div className="text-sm text-gray-600">Universities</div>
               </div>
               <div className="text-center">
@@ -60,18 +60,18 @@ export default function HomeHero() {
             </div>
           </div>
 
-          <div className="relative h-72 lg:h-[500px] overflow-hidden rounded-2xl shadow-lg">
-            <div className="relative rounded-2xl overflow-hidden shadow-2xl">
+          <div className="relative h-72 lg:h-[500px] w-full">
+            <div className="relative w-full h-full rounded-2xl overflow-hidden shadow-2xl">
               <Image
-                src="/placeholder.svg?height=600&width=500"
+                src="/hero-img.jpg"
                 alt="Bong County students in Rwanda"
                 fill
-                className="object-cover w-full h-full "
+                className="object-cover"
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                 priority
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
-              <div className="absolute bottom-6 left-6 text-white">
+              <div className="absolute inset-0 bg-gradient-to-t from-black/10 to-transparent"></div>
+              <div className="absolute bottom-6 left-6 text-white z-10">
                 <p className="text-lg font-semibold">
                   Cultural Unity in Academic Excellence
                 </p>

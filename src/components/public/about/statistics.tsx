@@ -15,11 +15,11 @@ const statisticsData = [
     value: 5,
     progress: 35,
     color: "blue",
-    description: "65% employed in Rwanda",
+    description: "65% currently in Rwanda",
   },
   {
     title: "Universities",
-    value: 4,
+    value: "4+",
     progress: 54,
     color: "green",
     description: "92% satisfaction rate",
@@ -34,17 +34,17 @@ const statisticsData = [
 ];
 
 const academicDistribution = [
-  { title: "Engineering & Technology", value: 35 },
-  { title: "Medicine & Health Sciences", value: 28 },
-  { title: "Business & Economics", value: 22 },
+  { title: "Engineering & Technology", value: 65 },
+  { title: "Medicine & Health Sciences", value: 38 },
+  { title: "Business & Economics", value: 80 },
   { title: "Arts & Social Sciences", value: 15 },
 ];
 const universityEnrollment = [
-  { title: "University of Rwanda", value: 12 },
-  { title: "INES-Ruhengeri", value: 28 },
-  { title: "AUCA", value: 24 },
-  { title: "ULK", value: 45 },
-  { title: "Others", value: 44 },
+  { title: "University of Rwanda", value: 2 },
+  { title: "INES-Ruhengeri", value: 5 },
+  { title: "AUCA", value: 6 },
+  { title: "ULK", value: 20 },
+  { title: "Others", value: 30 },
 ];
 
 export default function Statistics() {
