@@ -30,13 +30,14 @@ export default function Cuisines() {
         {cuisines.map((cuisine, index) => (
           <Card key={index} className="hover:shadow-lg transition-shadow">
             <CardHeader>
-              <Image
-                src={cuisine.image}
-                alt={cuisine.title}
-                width={300}
-                height={200}
-                className="rounded-lg mb-4"
-              />
+              <div className="relative w-full h-44 rounded-2xl overflow-hidden shadow-lg">
+                <Image
+                  src={cuisine.image}
+                  alt={cuisine.title}
+                  fill
+                  className="w-full h-full object-cover object-center"
+                />
+              </div>
               <CardTitle>{cuisine.title}</CardTitle>
               <CardDescription>{cuisine.description}</CardDescription>
             </CardHeader>
